@@ -98,3 +98,6 @@ print(chai)
 chai = "c:\\usr\\pwd"
 print(chai)
 chai = r"c:\usr\pwd" #both syntaxes are same
+
+chai = "Masala chai"
+print("Masala" in chai) #True
