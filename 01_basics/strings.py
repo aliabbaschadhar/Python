@@ -95,5 +95,6 @@ print(chai)
 chai = r"Masala\nChai"
 print(chai)
 
-chai = r"c:\\usr\\pwd"
+chai = "c:\\usr\\pwd"
 print(chai)
+chai = r"c:\usr\pwd" #both syntaxes are same
