@@ -67,3 +67,20 @@ print(bin(34)) # 0b100010
 
 print(hex(1003)) # 0x3eb
 
+#Sets
+setone = {1,2,3,4}
+settwo = {3,8,2}
+
+print(setone - settwo) # {1,4} difference
+print(setone & settwo) # {2,3} intersection
+print(setone | settwo) # {1,2,3,4,8} union
+print(setone ^ settwo) # {1,4,8} symmetric difference
+
+setthree = setone - setone;
+print(setthree) # set() empty set 
+
+# you will notice that we haven't recived empty parenthesis bcz empty set is used for dictionaries and for sets it is "set()"
+
+# if we check the type({}) we will receive <class dict>
+
+
