@@ -6,7 +6,7 @@ lambda_cube = lambda x: x**3  # Creates a lambda function that returns x^3
 print(lambda_cube(3))  # Prints 27
 
 # Create anotherCube using lambda_cube
-anotherCube = lambda_cube  # Correct way to assign lambda function
+anotherCube = lambda_cube 
 
 print(anotherCube(8))  # Prints 512
 
