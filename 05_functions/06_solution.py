@@ -1,26 +1,26 @@
-# Syntax  of lambda expression/function in python
-#! variable = lambda arguments: expression
+# Syntax of lambda expression/function in python
+# variable = lambda arguments: expression
 
-# lambda: The keyword that signifies the creation of a lambda function.
-# arguments: A comma-separated list of parameters (can be zero or more).
-# expression: A single expression that is evaluated and returned.
+lambda_cube = lambda x: x**3  # Creates a lambda function that returns x^3
 
-lambda_cube = lambda x:x**3
+print(lambda_cube(3))  # Prints 27
 
-print(lambda_cube(3))
+# Create anotherCube using lambda_cube
+anotherCube = lambda_cube  # Correct way to assign lambda function
 
-#! anotherCube = lambda_cube # causes error
+print(anotherCube(8))  # Prints 512
 
-# print(anotherCube(8))
+def simple_cube(x):
+    return x ** 3  # Regular function definition
 
-def simple_cube (x):
-    return x **3
+second_cube = simple_cube  # Works for both def and lambda functions
 
-second_cube =simple_cube # This can only happend with def function but not with lambda function
+print(second_cube(9))  # Prints 729
 
-print(second_cube(9))
+# Explanation:
+# Lambda functions are anonymous functions that return values implicitly.
+# Regular functions defined using def keyword return values explicitly via return statement.
+# Both lambda and def functions can be assigned to variables, storing a reference to the function.
+# The function will execute only when invoked, not when its reference is stored.
 
-# In Python, lambda functions are anonymous functions that return values implicitly, meaning the result of their expression is automatically returned without the need for a return keyword. 
-# They can only contain a single expression and are often used for short, simple tasks. On the other hand, regular functions defined using the def keyword return values explicitly when executed via the return statement. 
-# If no return is provided, the function returns None by default. Both lambda and def functions can be assigned to variables, but this assignment stores a reference to the function rather than calling it.
-#  The function will only execute when it is explicitly invoked, not when its reference is stored.
+
