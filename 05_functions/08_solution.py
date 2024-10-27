@@ -8,10 +8,11 @@ def print_kwargs(**kwargs):
 # Use *args when you need to pass a list or tuple of values without needing to specify parameters names.
 # Use **kwargs when you need to pass a dictionary of values with specfic names.
 
+#* Purpose of * in args and ** in kwargs
+
 #! The * in *args unpacks a variable-length list or tuple of positional arguments.
 # It tells Python to take all the positional arguments provided and pack them into a single tuple called args.
 
-#* Purpose of * in args and ** in kwargs
 
 #! The ** in **kwargs unpacks a variable-length dictionary of keyword arguments.
 # It tells Python to take all the keyword arguments provided and pack them into a single dictionary called kwargs.
