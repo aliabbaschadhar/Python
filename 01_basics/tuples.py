@@ -44,3 +44,18 @@ print(oolong) # Oolong
 print(white) # White
 
 print(type(tea_types)) # <class 'tuple'>
+
+#! Named Tuples
+
+from collections import namedtuple
+
+# Creating a named tuple
+House = namedtuple("House", ["city", "country", "year", "area", "num_rooms"])
+
+# Creating an instance of the named tuple
+house_1 = House("Bangalore", "India", 2020, 2018, 4)
+
+# Accessing elements by name
+city = house_1.city  
+
+print(city) # "Bangalore"
