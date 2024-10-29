@@ -50,7 +50,7 @@ Original_Chai = "Ginger Tea"
 print(Original_Chai.replace("Ginger", "Lemon")) # Lemon Tea
 
 chai = "Lemon, Ginger, Masala, Mint";
-print(chai.split(", ")) # Conver the string into list on the basis of ", "(comma and a space after that)
+print(chai.split(", ")) # Convert the string into list on the basis of ", "(comma and a space after that)
 
 chai = "Masala Chai";
 # To find the starting index of string
@@ -87,13 +87,13 @@ print(len(string)) # For length of string or list or anyother data type i think 
 # If we want to print string like this then we have to use back  by using it the first string is considered as it is it is not considered as a string so
 
 chai = r"He said, \"Masala chai is awesome\" "
-print(chai)
+print(chai) # He said, "Masala chai is awesome"
 
 chai = "Masala\nChai"
-print(chai)
+print(chai) # Masala new line Chai
 
 chai = r"Masala\nChai"
-print(chai)
+print(chai) # Masala\nChai
 
 chai = "c:\\usr\\pwd"
 print(chai)

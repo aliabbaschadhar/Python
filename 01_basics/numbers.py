@@ -11,7 +11,7 @@ name = "hitesh"
 
 # To convert a number into another data type we will use like this
 
-alpha = int(b); #This will covert the b into a int datatype
+alpha = int(b); #This will convert the b into a int datatype
 print(alpha)
 
 #Same thing goes with "a" int to float
