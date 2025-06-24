@@ -49,7 +49,7 @@ print(math.floor(3.4)) #3
 # math.ceil() gives us closest int number above the provided number 
 print(math.ceil(3.5)) #4
 
-# math.trunc() gives us closes number toward zero on realnumber line 
+# math.trunc() gives us closes number toward zero on real number line 
 print(math.trunc(2.8)) #2
 print(math.trunc(-2.8)) #-2
 
@@ -79,7 +79,7 @@ print(setone ^ settwo) # {1,4,8} symmetric difference
 setthree = setone - setone;
 print(setthree) # set() empty set 
 
-# you will notice that we haven't recived empty parenthesis bcz empty set is used for dictionaries and for sets it is "set()"
+# you will notice that we haven't received empty parenthesis bcz empty set is used for dictionaries and for sets it is "set()"
 
 # if we check the type({}) we will receive <class dict>
 

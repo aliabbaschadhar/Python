@@ -1,23 +1,23 @@
-#Object Types / Data Types
+# Object Types / Data Types
 
--   Number : 123 , 3.1415 ,3+4j(complex numbers), 0b111, Decimal(),
+- Number : 123 , 3.1415 ,3+4j(complex numbers), 0b111, Decimal(),
 
--   String : 'Ali' , "Bob's" , b'a\x01c' , u'sp\xc4m'
+- String : 'Ali' , "Bob's" , b'a\x01c' , u'sp\xc4m'
 
--   List(Array in python) : [1, [2,'three'] , 4 , 5 ], list(range(10))
+- List(Array in python) : [1, [2,'three'] , 4 , 5 ], list(range(10))
 
--   Tuple : (1, 'spam' , 4 , 'U') , tuple('spam') , namedtuple
+- Tuple : (1, 'spam' , 4 , 'U') , tuple('spam') , namedtuple
 
--   Dictionary : {'food':'spam' , 'taste' : 'yum'} , dict(hours=10)
+- Dictionary : {'food':'spam' , 'taste' : 'yum'} , dict(hours=10)
 
 <!-- Only unique -->
 
--   Set : set('abc') , {'a' , 'b' , 'c'}
+- Set : set('abc') , {'a' , 'b' , 'c'}
 
--   Boolean : Ture , False
+- Boolean : True , False
 
--   None : None
+- None : None
 
--   Functions, modules , classes
+- Functions, modules , classes
 
--   Advanced Types : decorators, generator ,iterators , MetaProgramming
+- Advanced Types : decorators, generator ,iterators , MetaProgramming

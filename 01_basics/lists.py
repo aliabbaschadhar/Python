@@ -106,7 +106,7 @@ print(tea_varieties_copy) # ["Lemon", "Ginger", "White", "Oolong"]
 
 # To make a copy of list    
 
-tea_varieties_copy_ref = tea_varieties.copy() #This has made copy of the list with same values but different reference, the main list and the copy has different refrence
+tea_varieties_copy_ref = tea_varieties.copy() #This has made copy of the list with same values but different reference, the main list and the copy has different reference
 print(tea_varieties_copy_ref) # ["Lemon", "Ginger", "White", "Oolong"]
 
 #Making a change in the main list will affect the tea_varieties_copy but not the tea_varieties_copy_ref

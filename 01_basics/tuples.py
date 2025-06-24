@@ -19,7 +19,7 @@ print(len(tea_types)) # 4
 
 # Tuples can be concatenated
 
-more_tea = ('Ginger', 'Mint') ;
+more_tea = ('Ginger', 'Mint') 
 all_tee = tea_types + more_tea
 print(all_tee) # ('Black', 'Green', 'Oolong', 'White', 'Ginger', 'Mint')
 

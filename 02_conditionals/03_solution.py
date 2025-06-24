@@ -2,7 +2,7 @@ score = 98
 
 if score >=101:
     print("Please verify your grade again")
-    exit(); # To exit program
+    exit() # To exit program
 
 if score>= 90:
     grade = "A"

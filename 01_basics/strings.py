@@ -79,14 +79,14 @@ print(string)
 chai_variety = ["Lemon", "Masala", "Ginger"]
 print(", ".join(chai_variety)) # Convert the whole list into string with ", "(comma and a space format)
 
-print(len(string)) # For length of string or list or anyother data type i think so
+print(len(string)) # For length of string or list or any other data type i think so
 
 #! --> Raw String 
 
 # chai = "He said, "Masala chai is awesome" "
-# If we want to print string like this then we have to use back  by using it the first string is considered as it is it is not considered as a string so
+# If we want to print string like this then we have to use backslash  by using it the first string is considered as it is it is not considered as a string so
 
-chai = r"He said, \"Masala chai is awesome\" "
+chai = r"He said, \"Masala chai is awesome\"" 
 print(chai) # He said, "Masala chai is awesome"
 
 chai = "Masala\nChai"
@@ -98,6 +98,7 @@ print(chai) # Masala\nChai
 chai = "c:\\usr\\pwd"
 print(chai)
 chai = r"c:\usr\pwd" #both syntaxes are same
+print(chai)
 
 chai = "Masala chai"
 print("Masala" in chai) #True

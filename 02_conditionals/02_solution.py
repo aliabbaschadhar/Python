@@ -1,4 +1,4 @@
-age = 22;
+age = 22
 day = "Wednesday"
 
 # Python ternary operator
